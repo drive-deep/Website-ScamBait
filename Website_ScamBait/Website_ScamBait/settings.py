@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-j4%)zgxtozys7+@e*d9%cyw%3g5n9cnfhfk7ichkfj%^t2a(er
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['websitescambait.herokuapp.com']
+ALLOWED_HOSTS = ['0.0.0.0']
 
 
 # Application definition
@@ -50,6 +50,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'Website_ScamBait.urls'
