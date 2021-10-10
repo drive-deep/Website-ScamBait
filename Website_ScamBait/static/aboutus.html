@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    {% load static %}
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,7 +13,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-    <link rel="stylesheet" href="css/styles-old.css">
+    <link rel="stylesheet" href="{% static 'css/styles-old.css' %}">
     <title>About Us</title>
 
 </head>
@@ -23,7 +24,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="/"><img src="img/logo.png" height="30" width="41" alt=""></a>
+            <a class="navbar-brand" href="/"><img src="{% static 'img/logo.png' %}" height="30" width="41" alt=""></a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item"><a href="/" class="nav-link"><span class="fa fa-home fa-lg"></span> Home</a></li>
@@ -44,7 +45,7 @@
                     <p>We want you to be doubly sure before you pay anyone!!</p>
                 </div>
                 <div class="col-12 col-sm align-self-center">
-                    <img src="img/logo.png" class="img-fluid" alt="logo">
+                    <img src="{ % static 'img/logo.png' %}" class="img-fluid" alt="logo">
                 </div>
             </div>
         </div>

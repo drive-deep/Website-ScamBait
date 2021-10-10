@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="198a91a9-26f1-4bdb-93c0-fa7a5a7cae09" name="Changes" comment="" />
+    <list default="true" id="198a91a9-26f1-4bdb-93c0-fa7a5a7cae09" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website_ScamBait/Website_ScamBait/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Website_ScamBait/Website_ScamBait/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website_ScamBait/templates/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/Website_ScamBait/static/aboutus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website_ScamBait/templates/contactus.html" beforeDir="false" afterPath="$PROJECT_DIR$/Website_ScamBait/static/contactus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website_ScamBait/templates/css/styles-old.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website_ScamBait/static/css/styles-old.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website_ScamBait/templates/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website_ScamBait/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website_ScamBait/templates/css/styles.less" beforeDir="false" afterPath="$PROJECT_DIR$/Website_ScamBait/static/css/styles.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website_ScamBait/templates/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Website_ScamBait/static/css/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website_ScamBait/templates/img/alberto.png" beforeDir="false" afterPath="$PROJECT_DIR$/Website_ScamBait/static/img/alberto.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website_ScamBait/templates/img/buffet.png" beforeDir="false" afterPath="$PROJECT_DIR$/Website_ScamBait/static/img/buffet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website_ScamBait/templates/img/free1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Website_ScamBait/static/img/free1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website_ScamBait/templates/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Website_ScamBait/static/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website_ScamBait/templates/img/money.png" beforeDir="false" afterPath="$PROJECT_DIR$/Website_ScamBait/static/img/money.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website_ScamBait/templates/img/scam.png" beforeDir="false" afterPath="$PROJECT_DIR$/Website_ScamBait/static/img/scam.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website_ScamBait/templates/img/sure.png" beforeDir="false" afterPath="$PROJECT_DIR$/Website_ScamBait/static/img/sure.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website_ScamBait/templates/img/uthappizza.png" beforeDir="false" afterPath="$PROJECT_DIR$/Website_ScamBait/static/img/uthappizza.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website_ScamBait/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Website_ScamBait/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website_ScamBait/templates/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Website_ScamBait/static/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website_ScamBait/templates/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Website_ScamBait/static/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,5 +50,16 @@
       <updated>1633799155113</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
