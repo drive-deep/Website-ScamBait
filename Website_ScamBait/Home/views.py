@@ -15,7 +15,7 @@ def home(request):
                 "accont_no": data.account_no,
                 "mobile_no": data.phone
             }
-            print(return_val,777777)
+            
             return HttpResponse(str(return_val))
 
     if res.get('upi_id'):
