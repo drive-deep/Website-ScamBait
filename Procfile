@@ -1,1 +1,1 @@
-web: gunicorn Website_ScamBait.wsgi
+web: gunicorn Website_ScamBait.wsgi:application
