@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="198a91a9-26f1-4bdb-93c0-fa7a5a7cae09" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/venv/bin/django-admin" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/django-admin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/django-admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/django-admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/Django-3.2.7.dist-info/AUTHORS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/Django-3.2.7.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/Django-3.2.7.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/Django-3.2.7.dist-info/LICENSE.python" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/Django-3.2.7.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/Django-3.2.7.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/Django-3.2.7.dist-info/REQUESTED" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/Django-3.2.7.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/Django-3.2.7.dist-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/Django-3.2.7.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django/contrib/admin/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django/contrib/admin/helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django/contrib/admin/static/admin/js/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django/contrib/admin/static/admin/js/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website_ScamBait/Website_ScamBait/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Website_ScamBait/Website_ScamBait/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
