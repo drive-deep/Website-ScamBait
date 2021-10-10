@@ -1,2 +1,2 @@
-cd Website_ScamBait 
-web: gunicorn Website_ScamBait.wsgi:application
+
+web: gunicorn --chdir Website_ScamBait Website_ScamBait.wsgi:application
