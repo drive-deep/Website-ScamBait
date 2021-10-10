@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="198a91a9-26f1-4bdb-93c0-fa7a5a7cae09" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website_ScamBait/Website_ScamBait/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Website_ScamBait/Website_ScamBait/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
