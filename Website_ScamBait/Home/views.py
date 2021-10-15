@@ -3,7 +3,7 @@ from django.http import HttpResponse
 from .models import scam
 
 # Create your views here.
-def home(request):
+def Home(request):
     res = request.GET
     input_data = res.get('input_data')
 
