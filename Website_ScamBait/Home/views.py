@@ -17,6 +17,8 @@ def Home(request):
             }
             
             return HttpResponse(str(return_val))
+    else:
+        return HttpResponse('No data available')
 
     if res.get('upi_id'):
         account_no = res.get('account_no')
@@ -27,7 +29,7 @@ def Home(request):
         upi_id = res.get('upi_id')
 
         obj = scam()
-        print(obj)
+
         obj.account_no = account_no
         obj.inlineRadioOptions = inlineRadioOptions
         if online:
