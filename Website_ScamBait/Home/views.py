@@ -8,8 +8,8 @@ def Home(request):
     input_data = res.get('input_data')
 
     if input_data:
-        data = scam.objects.get(phone=input_data)
         try:
+            data = scam.objects.get(phone=input_data)
             return_val = {
                 "upi_id": data.upi_id,
                 "accont_no": data.account_no,
