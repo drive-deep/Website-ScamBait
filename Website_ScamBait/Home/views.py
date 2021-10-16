@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from .models import scam
-from django.core.exceptions import ObjectDoesNotExist
+
 # Create your views here.
 def Home(request):
     res = request.GET
@@ -17,30 +17,34 @@ def Home(request):
             }
             return HttpResponse(str(return_val))
 
-        except ObjectDoesNotExist:
+        finally:
             return HttpResponse('No data available')
 
-    if res.get('upi_id'):
-        account_no = res.get('account_no')
-        inlineRadioOptions = res.get('inlineRadioOptions')
-        online = res.get('online')
-        offline = res.get('offline')
-        phone = res.get('phone')
-        upi_id = res.get('upi_id')
+    if res.get('phone'):
+        try:
+            account_no = res.get('account_no')
+            inlineRadioOptions = res.get('inlineRadioOptions')
+            online = res.get('online')
+            offline = res.get('offline')
+            phone = res.get('phone')
+            upi_id = res.get('upi_id')
 
-        obj = scam()
+            obj = scam()
 
-        obj.account_no = account_no
-        obj.inlineRadioOptions = inlineRadioOptions
-        if online:
-            obj.online = online
-        if offline:
-            obj.offline = offline
-        obj.phone = phone
-        obj.upi_id = upi_id
+            obj.account_no = account_no
+            obj.inlineRadioOptions = inlineRadioOptions
+            if online:
+                obj.online = online
+            if offline:
+                obj.offline = offline
+            obj.phone = phone
+            obj.upi_id = upi_id
 
-        obj.save()
-        return HttpResponse('data saved successfully')
+            obj.save()
+            return HttpResponse('data saved successfully')
+
+        finally:
+            return HttpResponse('Cannot save data')
 
     return render(request, 'index.html')
 
