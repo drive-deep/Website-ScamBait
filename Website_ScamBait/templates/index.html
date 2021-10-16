@@ -99,6 +99,7 @@
                         <!-- <h3 class="card-header bg-warning text-white">Reserve a Table</h3> -->
                         <div class="card-body" style="background-color: #ae9cce;">
                             <dl class="row">
+                                <form action="", method="get">
                                 <dd class="col-4">How much are you sure??</dt>
                                 <dd class="col-8">
                                     <div class="form-check form-check-inline">
@@ -117,12 +118,12 @@
                                         <label class="form-check-label" for="inlineRadio3">3 </label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4"
                                             value="option3">
                                         <label class="form-check-label" for="inlineRadio3">4 </label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5"
                                             value="option3">
                                         <label class="form-check-label" for="inlineRadio3">5 </label>
                                     </div>
@@ -136,20 +137,20 @@
                                 <dd class="col-8">
                                     <div class="btn-group btn-group-toggle" data-toggle="buttons">
                                         <label class="btn  active btn-success">
-                                          <input type="radio" name="options" id="option1" autocomplete="off" checked> Online
+                                          <input type="radio" name="online" id="option1" autocomplete="off" checked> Online
                                         </label>
                                         <label class="btn btn-danger">
-                                          <input type="radio" name="options" id="option2" autocomplete="off"> Offline
+                                          <input type="radio" name="offline" id="option2" autocomplete="off"> Offline
                                         </label>
 
                                       </div>
                                 </dd>
                                 <dd class="col-4">UPI id</dd>
                                 <dd class="col-8">
-                                    <form>
+
                                         <div class="form-row">
                                             <div class="col-10">
-                                                <input type="text" class="form-control" placeholder="Enter UPI id">
+                                                <input type="text" class="form-control" name="upi_id" placeholder="Enter UPI id">
                                             </div>
                                             <!-- <div class="col-5">
                                                 <input type="text" class="form-control" placeholder="Time">
@@ -158,10 +159,10 @@
                                     </dd>
                                 <dd class="col-4">Account Number</dd>
                                 <dd class="col-8">
-                                    <form>
+
                                         <div class="form-row">
                                             <div class="col-10">
-                                                <input type="text" class="form-control" placeholder="Enter Account Number">
+                                                <input type="text" class="form-control" name="account_no" placeholder="Enter Account Number">
                                             </div>
                                             <!-- <div class="col-5">
                                                 <input type="text" class="form-control" placeholder="Time">
@@ -170,22 +171,21 @@
                                     </dd>
                                 <dd class="col-4">Phone Number</dd>
                                 <dd class="col-8">
-                                    <form>
+
                                         <div class="form-row">
                                             <div class="col-10">
-                                                <input type="text" class="form-control" placeholder="Enter Phone Number">
+                                                <input type="text" class="form-control" name="phone" placeholder="Enter Phone Number">
                                             </div>
                                             <!-- <div class="col-5">
                                                 <input type="text" class="form-control" placeholder="Time">
                                             </div> -->
                                         </div>
-                                        
+
                                         <button type="submit" class="btn btn-secondary mt-5">Cancel</button>
                                         <button type="submit" class="btn btn-primary mt-5">Report</button>
 
-                                    </form>
                                 </dd>
-
+</form>
                             </dl>
                         </div>
                     </div>
