@@ -17,7 +17,7 @@ def Home(request):
             }
             return HttpResponse(str(return_val))
 
-        finally:
+        except:
             return HttpResponse('No data available')
 
     if res.get('phone'):
@@ -43,7 +43,7 @@ def Home(request):
             obj.save()
             return HttpResponse('data saved successfully')
 
-        finally:
+        except:
             return HttpResponse('Cannot save data')
 
     return render(request, 'index.html')
