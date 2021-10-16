@@ -15,10 +15,10 @@ def Home(request):
                 "accont_no": data.account_no,
                 "mobile_no": data.phone
             }
-            
             return HttpResponse(str(return_val))
-    else:
-        return HttpResponse('No data available')
+
+        else:
+            return HttpResponse('No data available')
 
     if res.get('upi_id'):
         account_no = res.get('account_no')
