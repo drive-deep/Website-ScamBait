@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from .models import scam
-
+from django.core.exceptions import ObjectDoesNotExist
 # Create your views here.
 def Home(request):
     res = request.GET
@@ -9,7 +9,7 @@ def Home(request):
 
     if input_data:
         data = scam.objects.get(phone=input_data)
-        if data:
+        try:
             return_val = {
                 "upi_id": data.upi_id,
                 "accont_no": data.account_no,
@@ -17,7 +17,7 @@ def Home(request):
             }
             return HttpResponse(str(return_val))
 
-        else:
+        except ObjectDoesNotExist:
             return HttpResponse('No data available')
 
     if res.get('upi_id'):
