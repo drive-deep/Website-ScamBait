@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="198a91a9-26f1-4bdb-93c0-fa7a5a7cae09" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website_ScamBait/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Website_ScamBait/templates/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="198a91a9-26f1-4bdb-93c0-fa7a5a7cae09" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
